@@ -1,4 +1,4 @@
-package com.coolweather.android.gson;
+package club.zhengjiadi.coolweather.gson;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -16,6 +16,7 @@ public class Weather {
 
     public Suggestion suggestion;
 
+    //serializedName 里面的名称要和返回的对应(如果命名一致的话就不需要加这个)
     @SerializedName("daily_forecast")
     public List<Forecast> forecastList;
 

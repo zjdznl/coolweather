@@ -1,4 +1,4 @@
-package com.coolweather.android.service;
+package club.zhengjiadi.coolweather.service;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -12,11 +12,11 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.coolweather.android.R;
-import com.coolweather.android.WeatherActivity;
-import com.coolweather.android.gson.Weather;
-import com.coolweather.android.util.HttpUtil;
-import com.coolweather.android.util.Utility;
+import club.zhengjiadi.coolweather.R;
+import club.zhengjiadi.coolweather.WeatherActivity;
+import club.zhengjiadi.coolweather.gson.Weather;
+import club.zhengjiadi.coolweather.util.HttpUtil;
+import club.zhengjiadi.coolweather.util.Utility;
 
 import java.io.IOException;
 

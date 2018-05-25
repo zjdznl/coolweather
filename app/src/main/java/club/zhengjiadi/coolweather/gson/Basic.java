@@ -1,8 +1,22 @@
 package club.zhengjiadi.coolweather.gson;
 
-/**
- * Created by zjdzn on 2018/5/23.
- */
+import com.google.gson.annotations.SerializedName;
 
 public class Basic {
+
+    @SerializedName("city")
+    public String cityName;
+
+    @SerializedName("id")
+    public String weatherId;
+
+    public Update update;
+
+    public class Update {
+
+        @SerializedName("loc")
+        public String updateTime;
+
+    }
+
 }

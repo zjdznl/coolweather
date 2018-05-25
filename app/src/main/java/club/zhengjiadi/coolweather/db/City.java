@@ -1,10 +1,12 @@
 package club.zhengjiadi.coolweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by zjdzn on 2018/5/22.
  */
 
-public class City {
+public class City extends DataSupport {
     private int id;
     private String cityName;
     private int cityCode;
